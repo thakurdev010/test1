@@ -1,0 +1,26 @@
+---
+title: "Vignette: Meaningful description of how to use this package"
+author: "Thakur Dev Pandey"
+date: "14 July 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Meaningful description of how to use this package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(test1)
+
+
+## "The sum is: "
+
+## add(2, 3)
+
+## [1] "The sum is: 5"
+```
+
